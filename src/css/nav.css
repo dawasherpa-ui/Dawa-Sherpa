@@ -1,0 +1,38 @@
+.lightMode{
+    animation: rotateAnimation 0.5s linear forwards;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(45deg);
+        opacity: 1;
+        
+    }
+    100%{
+        transform:rotate(90deg) ;
+        opacity: 1;
+    }
+}
+.darkMode{
+    animation: rotate 0.5s linear forwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-120deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(-90deg);
+        opacity: 1;
+        
+    }
+    100%{
+        transform:rotate(0deg) ;
+        opacity: 1;
+    }
+}
