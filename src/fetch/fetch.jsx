@@ -1,7 +1,7 @@
 const fetchData = async (question) => {
   // Perform your data fetching logic here
   // For example, you can use the fetch API to make an HTTP request
-  const response = await fetch('https://chatbot-production-ae17.up.railway.app/chat', {
+  const response = await fetch('https://unruly-pan-production.up.railway.app/chat', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
