@@ -7,7 +7,7 @@ import { Howl } from "howler";
 import notificationSound from "../assets/discord.mp3"; // Import the sound file
 const fetchData = async (text, signal) => {
   const response = await fetch(
-    "https://web-chat-0w6o.onrender.com/chat",
+    "https://gemini-bot-k4ey.onrender.com/chat",
     {
       method: "POST",
       headers: {
